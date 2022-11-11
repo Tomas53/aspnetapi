@@ -10,7 +10,7 @@ namespace aspnetapi.Data
 
         public DbContext Context => this;
 
-        //protected override void OnConfiguring(DbContext)
+        //protected override void OnConfiguring(DbContext)ss
 
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder) => dbContextOptionsBuilder.UseSqlite("Data Source=./Data/ApiDB.db");
 
